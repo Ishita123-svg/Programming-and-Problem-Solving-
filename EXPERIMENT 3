@@ -1,0 +1,26 @@
+Q1 Largest of Three Numbers
+Write a Python program that prompts the user to enter three integers. Print the largest of the three integers
+
+# Prompt the user to enter three integers
+a = int(input())
+b = int(input())
+c = int(input())
+
+# Find and print the largest integer
+largest = max(a, b, c)
+print(largest)
+
+
+
+Q2 Write a Python program to convert temperature from Celsius to Fahrenheit.
+
+# Read temperature in Celsius
+celsius = float(input())
+
+# Convert to Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Print the result formatted to 2 decimal places
+print(f"{fahrenheit:.2f}")
+
+
