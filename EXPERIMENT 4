@@ -1,0 +1,15 @@
+Q1 Write a Python program to perform union, intersection and difference operations on Set A and Set 
+
+ set_a = set(map(int, input("Set A: ").split()))
+set_b = set(map(int, input("Set B: ").split()))
+
+union_set = set_a | set_b
+intersection_set = set_a & set_b
+difference_set = set_a - set_b
+
+print(f"Union: {union_set}")
+print(f"Intersection: {intersection_set}")
+print(f"Difference: {difference_set}")
+
+
+ 
